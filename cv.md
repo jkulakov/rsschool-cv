@@ -1,6 +1,7 @@
 # My CV
 
 ## Ivan Kulakov
+
 ---
 
 ## Contacts:
@@ -10,6 +11,7 @@
 * GitHub: jKulakov
 
 ---
+
 ## About myself
 
 I'm 32 year old man from Saint-Petersburg. I want to learn Front-end in RSSchool for change my current job.
@@ -26,7 +28,9 @@ I'm 32 year old man from Saint-Petersburg. I want to learn Front-end in RSSchool
 * PHP & MySQL (basic)
 
 ---
+
 ## Code Examples
+
 ```
 let subMenu = document.getElementsByClassName("menu_sub");
 	let menuExistSub = [];
@@ -65,6 +69,7 @@ for(let i = 0; i < subMenu.length; i++){
     * [JavaScript + React - с нуля до результата](https://www.udemy.com/course/javascript_full/)
     
 ---
+
 ## Language
 * Russian
 * English (B1)
