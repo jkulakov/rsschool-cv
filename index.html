@@ -4,7 +4,178 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body></body>
+<body>
+<header class="header">
+  <div class="left_header">
+    <img src="avatar.jpeg" alt="avatar" class="avatar_img">
+  </div>
+
+  <div class="right_header">
+    <h1>Ivan Kulakov</h1>
+    <h2>Front-end Developer</h2>
+  </div>
+</header>
+
+<main class="main_conteiner">
+  <aside class="side_col">
+    <h3 class="white_header">Contact</h3>
+
+    <ul class="contact_list">
+      <li>Email</li>
+      <li><a href="mailto:mail@gmail.com" class="contact_link">codykulakov@gmail.com</a></li>
+      <li style="margin-top: 10px;">Discord</li>
+      <li><a href="" class="contact_link" target="_blank">iMaverick</a></li>
+      <li style="margin-top: 10px;">GitHub</li>
+      <li><a href="https://github.com/jkulakov" class="contact_link" target="_blank">jKulakov</a></li>
+      <li style="margin-top: 10px;">/</li>
+      <li><a href="https://www.codewars.com/users/jkulakov" class="contact_link" target="_blank">Codewars</a></li>
+    </ul>
+    <h3 class="white_header">Education</h3>
+
+    <ul class="contact_list">
+      <li>Netology (2018-2019)</li>
+      <li><a href="https://netology.ru/programs/front-end" class="contact_link" target="_blank">Frontend-разработчик с нуля</a></li>
+      <li style="margin-top: 10px;">Udemy (2021-2022)</li>
+      <li><a href="https://www.udemy.com/course/javascript_full/" class="contact_link" target="_blank">JavaScript + React - с нуля до результата</a></li>
+    </ul>
+
+    <h3 class="white_header">Language</h3>
+
+    <ul>
+      <li class="lang_list_item">
+        Russian
+      </li>
+      <li class="lang_list_item">
+        <ul class="dark_circul">
+          <li class="dark_circul_item"> </li>
+          <li class="dark_circul_item"> </li>
+          <li class="dark_circul_item"> </li>
+          <li class="dark_circul_item"> </li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul>
+      <li class="lang_list_item">
+        English (B1)
+      </li>
+      <li class="lang_list_item">
+        <ul class="dark_circul">
+          <li class="dark_circul_item_en"> </li>
+          <li class="dark_circul_item_en"> </li>
+          <li class="dark_circul_item_en"> </li>
+          <li class="dark_circul_item_en"> </li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+
+  <article class="article_container">
+    <h3 class="black_header">About myself</h3>
+    <p class="content_paragraph">I'm 32 year old man from Saint-Petersburg. I want to learn Front-end in RSSchool for change my current job.</p>
+    <h3 class="black_header">Code Examples</h3>
+    <br>
+    <pre class="code_example">
+      <code>
+    let modalMain = document.getElementById("modal_main");
+    modalMain.classList.add("modal_active");
+
+    let closeBtn = document.getElementsByClassName("modal__close_times");
+    let close = closeBtn.item(0);
+    let closeSec = closeBtn.item(1);
+    close.onclick = function() {
+      modalMain.classList.remove("modal_active");
+    }
+
+    let showSuccess = document.getElementsByClassName("show-success");
+    showSuccess[0].onclick = function() {
+      modalMain.onclick = function() {
+        modalMain.classList.remove("modal_active");
+      }
+      let modalSuccess = document.getElementById("modal_success");
+      modalSuccess.classList.add("modal_active");
+      closeSec.onclick = function() {
+        modalSuccess.classList.remove("modal_active");
+      }
+    }
+      </code>
+    </pre>
+    <h3 class="black_header">Skills</h3>
+      <div class="skills_container">
+        <div class="skills_item_container">
+          <ul>
+            <li class="skills_list_item">
+              Git / Github
+            </li>
+            <li class="skills_list_item">
+              <ul class="skills_circul">
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="skills_item_container">
+          <ul>
+            <li class="skills_list_item">
+              HTML / CSS
+            </li>
+            <li class="skills_list_item">
+              <ul class="skills_circul">
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="skills_item_container">
+          <ul>
+            <li class="skills_list_item">
+              JavaScript (Basic)
+            </li>
+            <li class="skills_list_item">
+              <ul class="skills_circul">
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="skills_item_container">
+          <ul>
+            <li class="skills_list_item">
+              Avacode / Photoshop
+            </li>
+            <li class="skills_list_item">
+              <ul class="skills_circul">
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+                <li class="skills_circul_item"> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </article>
+</main>
+
+<footer class="footer">
+<a href="https://github.com/jkulakov" class="foo_link" target="_blank">Github</a>
+<p class="copy">&#169; 2022</p>
+<a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" class="rs_logo"></a>
+</footer>
+</body>
 </html>
