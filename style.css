@@ -67,6 +67,7 @@ h2 {
   display: block;
   position: relative;
   margin-left: 70px;
+  margin-top: 50px;
 }
 
 .white_header::before {
@@ -86,6 +87,7 @@ h2 {
   display: block;
   position: relative;
   margin-left: 70px;
+  margin-top: 50px;
 }
 
 .black_header::before {
@@ -106,6 +108,7 @@ h2 {
 
 .content_paragraph {
   margin-left: 70px;
+  color: #2c323d;
 }
 
 .contact_list {
@@ -118,7 +121,7 @@ h2 {
 }
 
 .contact_link {
-  font-size: 15px;
+  font-size: 16px;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -184,3 +187,6 @@ h2 {
   background-color: #FFFFFF;
 }
 
+.lang_list_margin {
+  margin-bottom: 50px;
+}
