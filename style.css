@@ -6,7 +6,7 @@ html {
 h1 {
   line-height: 1.7;
   color: #2c323d;
-  font-size: 64px;
+  font-size: 75px;
   font-weight: 700;
   margin: 70px 0 0 70px;
 }
@@ -107,3 +107,80 @@ h2 {
 .content_paragraph {
   margin-left: 70px;
 }
+
+.contact_list {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 30px;
+  list-style-type: none;
+  line-height: 1.3;
+}
+
+.contact_link {
+  font-size: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.lang_list_item {
+  margin-left: 30px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10px;
+  display: inline;
+}
+
+.dark_circul {
+  display: inline;
+}
+
+.dark_circul_item {
+  display: block;
+  position: relative;
+  list-style-type: none;
+  display: inline;
+  margin-left: 22px;
+}
+
+.dark_circul_item::before {
+  content: " ";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #595f6b;
+  position: absolute;
+  bottom: 3px;
+  margin-left: 0px;
+  left: -30px;
+}
+
+.dark_circul_item:nth-child(-n+3):before {
+  background-color: #FFFFFF;
+}
+
+.dark_circul_item_en {
+  display: block;
+  position: relative;
+  list-style-type: none;
+  display: inline;
+  margin-left: 22px;
+}
+
+.dark_circul_item_en::before {
+  content: " ";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #595f6b;
+  position: absolute;
+  bottom: 3px;
+  margin-left: 0px;
+  left: -68px;
+}
+
+.dark_circul_item_en:nth-child(-n+2):before {
+  background-color: #FFFFFF;
+}
+
