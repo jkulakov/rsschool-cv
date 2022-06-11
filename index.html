@@ -81,16 +81,37 @@
     <p class="content_paragraph">I'm 32 year old man from Saint-Petersburg. I want to learn Front-end in RSSchool for change my current job.</p>
     <h3 class="black_header">Code Examples</h3>
     <br>
-    <code class="code_example">function multiply(a, b) {
-      return a * b
-    }</code>
+    <pre class="code_example">
+      <code>
+    let modalMain = document.getElementById("modal_main");
+    modalMain.classList.add("modal_active");
+
+    let closeBtn = document.getElementsByClassName("modal__close_times");
+    let close = closeBtn.item(0);
+    let closeSec = closeBtn.item(1);
+    close.onclick = function() {
+      modalMain.classList.remove("modal_active");
+    }
+
+    let showSuccess = document.getElementsByClassName("show-success");
+    showSuccess[0].onclick = function() {
+      modalMain.onclick = function() {
+        modalMain.classList.remove("modal_active");
+      }
+      let modalSuccess = document.getElementById("modal_success");
+      modalSuccess.classList.add("modal_active");
+      closeSec.onclick = function() {
+        modalSuccess.classList.remove("modal_active");
+      }
+    }
+      </code>
+    </pre>
     <h3 class="black_header">Skills</h3>
   </article>
 </main>
 
-<footer class="main_conteiner">
-  <div class="side_col">dvcsv</div>
-  <div class="article_container">sdvsv</div>
+<footer class="footer">
+
 </footer>
 </body>
 </html>
