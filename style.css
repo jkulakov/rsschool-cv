@@ -274,3 +274,7 @@ h2 {
   width: 100px;
   margin: 20px 20px 20px 0;
 }
+
+.top_margin {
+  margin-top: 10px;
+}
